@@ -50,3 +50,14 @@
   .lightText {
     color: #666;
   }
+
+  .socials{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .socials > *:hover{
+    opacity: .8;
+  }
